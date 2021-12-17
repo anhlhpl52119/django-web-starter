@@ -25,11 +25,6 @@ virtualenv ./envs/
 source envs/bin/activate
 ```
 
-#### 4. Clone git repository
-```bash
-git clone "https://github.com/Manisha-Bayya/simple-django-project.git"
-```
-
 #### 5. Install requirements
 ```bash
 cd simple-django-project/
