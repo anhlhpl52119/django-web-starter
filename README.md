@@ -1,8 +1,6 @@
 # simple-django-project
 ## Installation
 
-### Prerequisites
-
 #### 1. Install Python
 Install ```python-3.7.2``` and ```python-pip```. Follow the steps from the below reference document based on your Operating System.
 Reference: [https://docs.python-guide.org/starting/installation/](https://docs.python-guide.org/starting/installation/)
@@ -25,11 +23,6 @@ virtualenv ./envs/
 source envs/bin/activate
 ```
 
-#### 4. Clone git repository
-```bash
-git clone "https://github.com/Manisha-Bayya/simple-django-project.git"
-```
-
 #### 5. Install requirements
 ```bash
 cd simple-django-project/
@@ -45,24 +38,6 @@ mysql -u <mysql-user> -p
 mysql> source ~/simple-django-project/world.sql
 mysql> exit;
 
-```
-#### 7. Edit project settings
-```bash
-# open settings file
-vim panorbit/settings.py
-
-# Edit Database configurations with your MySQL configurations.
-# Search for DATABASES section.
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'world',
-        'USER': '<mysql-user>',
-        'PASSWORD': '<mysql-password>',
-        'HOST': '<mysql-host>',
-        'PORT': '<mysql-port>',
-    }
-}
 
 # Edit email configurations.
 # Search for email configurations
@@ -88,8 +63,7 @@ python manage.py runserver 0:8001
 
 # your server is up on port 8001
 ```
-Try opening [http://localhost:8001](http://localhost:8001) in the browser.
-Now you are good to go.
+Using 8081 to opening [http://localhost:8001](http://localhost:8001) in the browser.
 
 ### 9. URLs
 #### Signup: [http://localhost:8001/signup](http://localhost:8001/signup)
