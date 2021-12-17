@@ -16,6 +16,7 @@ $DOM.on('click', '#send_otp', function() {
 	});
 });
 
+
 $DOM.on('click', '#login_submit', function() {
 
 	console.log("login clicked");
