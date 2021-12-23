@@ -3,6 +3,7 @@ $DOM.on('click', '#search_submit', function() {
 
 	console.log("search clicked");
 
+	
     query = $(".search").val();
     $('.search_results').empty()
 	$.ajax({
