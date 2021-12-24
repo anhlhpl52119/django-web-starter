@@ -11,6 +11,7 @@ $DOM.on('click', '#signup_submit', function() {
 
     
 	$.ajax({
+        
 		type: 'post',
         data: JSON.stringify(data),
 		url: '/signup/validate',
