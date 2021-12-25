@@ -4,6 +4,7 @@ $DOM.on('click', '#signup_submit', function() {
 
 	console.log("submit clicked");
     data = {}
+    
     data["first_name"] = $(".fname").val();
     data["last_name"] = $(".lname").val();
     data["email"] = $(".email").val();
