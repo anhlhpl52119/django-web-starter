@@ -45,6 +45,7 @@ CREATE TABLE `city` (
 -- Dumping data for table `city`
 --
 -- ORDER BY:  `ID`
+-- order by this country
 
 INSERT INTO `city` VALUES (1,'Kabul','AFG','Kabol',1780000);
 INSERT INTO `city` VALUES (2,'Qandahar','AFG','Qandahar',237500);
