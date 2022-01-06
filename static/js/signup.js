@@ -11,8 +11,8 @@ $DOM.on('click', '#signup_submit', function() {
     data["phone_number"] = $(".phno").val();
 
     
+
 	$.ajax({
-        
 		type: 'post',
         data: JSON.stringify(data),
 		url: '/signup/validate',
