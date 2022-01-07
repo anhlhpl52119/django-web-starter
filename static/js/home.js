@@ -7,6 +7,7 @@ $DOM.on('click', '#search_submit', function() {
     query = $(".search").val();
     $('.search_results').empty()
 	$.ajax({
+		
 		type: 'get',
 		url: '/search?query=' + query,
 		success: function(result) {
