@@ -104,7 +104,6 @@ def send_otp(request):
     request.session["auth_otp"] = otp
     request.session["auth_email"] = email
     # cache.set('{0}_auth_otp'.format(request.session.session_key), otp, 120)
-    # cache.set('{0}_auth_email'.format(request.session.session_key), email, 120)
  
     result = {"successs": True, "message": "otp sent"}
     return JsonResponse(result)
