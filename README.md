@@ -14,11 +14,6 @@ Reference: [https://dev.mysql.com/doc/refman/5.5/en/](https://dev.mysql.com/doc/
 # Install virtual environment
 sudo pip install virtualenv
 
-# Make a directory
-mkdir envs
-
-# Create virtual environment
-virtualenv ./envs/
 
 # Activate virtual environment
 source envs/bin/activate
