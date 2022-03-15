@@ -46,7 +46,7 @@ EMAIL_PORT = 587
 # save the file
 ```
 #### 8. Run the server
-```bash
+
 # Make migrations
 python manage.py makemigrations
 python manage.py migrate
