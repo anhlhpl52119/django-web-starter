@@ -1,6 +1,5 @@
 # simple-django-project
 ## Installation
-and configuration
 
 #### 1. Install Python
 Install ```python-3.7.2``` and ```python-pip```. Follow the steps from the below reference document based on your Operating System.
