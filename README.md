@@ -21,10 +21,10 @@ source envs/bin/activate
 #### 5. Install requirements
 ```bash
 cd simple-django-project/
-pip install -r requirements.txt
+pip install -r requirements.txt 
 ```
 
-#### 6. Load sample data into MySQL
+#### 6. Load sample data into MySQL and Data
 ```bash
 # open mysql bash
 mysql -u <mysql-user> -p
