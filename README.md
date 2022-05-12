@@ -12,7 +12,7 @@ Reference: [https://dev.mysql.com/doc/refman/5.5/en/](https://dev.mysql.com/doc/
 # Install virtual environment
 sudo pip install virtualenv
 
-
+update
 # Activate virtual environment
 source envs/bin/activate
 ```
