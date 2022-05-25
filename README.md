@@ -16,49 +16,6 @@ update
 # Activate virtual environment
 source envs/bin/activate
 ```
-
-#### 5. Install requirements
-```bash
-cd simple-django-project/
-pip install -r requirements.txt 
-```
-
-#### 6. Load sample data into MySQL and Data
-```bash
-# open mysql bash
-mysql -u <mysql-user> -p
-
-# Give the absolute path of the file
-mysql> source ~/simple-django-project/world.sql
-mysql> exit;
-
-
-# Edit email configurations.
-# Search for email configurations
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = '<your-email>'
-EMAIL_HOST_PASSWORD = '<your-email-password>'
-EMAIL_PORT = 587
-
-# save the file
-```
-#### 8. Run the server
-
-# Make migrations
-python manage.py makemigrations
-python manage.py migrate
-
-# For search feature we need to index certain tables to the haystack. For that run below command.
-python manage.py rebuild_index
-
-# Run the server
-python manage.py runserver 0:8001
-
-# your server is up on port 8001
-```
-Using 8081 to opening [http://localhost:8001](http://localhost:8001) in the browser.
-
 ### 9. URLs
 #### Signup: [http://localhost:8001/signup](http://localhost:8001/signup)
 ![](https://i.imgur.com/T1KkfXi.png)
